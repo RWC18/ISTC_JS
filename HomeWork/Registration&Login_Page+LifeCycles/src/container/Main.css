@@ -1,0 +1,55 @@
+.Main h1{
+    color: white;
+}
+
+.Main a{
+    border: 2px solid;
+    text-decoration: none;
+    padding: 15px;
+    margin:15px;
+    transition: .5s;
+    border-radius: 15px;
+}
+.Main .register{
+    background-color: black;
+    color: orange;
+    border-color: orange;
+}
+
+.Main .login{
+    background-color: black;
+    color: lime;
+    border-color: lime;
+}
+.Main .register:hover{
+    box-shadow: 0px 0px 25px orange inset;
+}
+
+.Main .login:hover{
+    box-shadow: 0px 0px 25px lime inset;   
+}
+
+.Main .links{
+    margin: 55px;
+}
+
+.Post{
+    box-shadow: 0px 0px 50px lime inset;
+    padding: 15px;
+    width: 70%;
+    border-radius: 15px;
+    color: lime;
+    box-sizing: border-box;
+    margin: 25px auto;
+}
+
+.Error{
+    box-shadow: 0px 0px 100px red inset;
+    padding: 100px;
+    width: 50%;
+    font-size: 25px;
+    border-radius: 15px;
+    color: red;
+    box-sizing: border-box;
+    margin: 25px auto;
+}

@@ -1,0 +1,42 @@
+.Input{
+    background-color: black;
+    display: block;
+    margin: 25px auto;
+    border-radius: 15px;
+    transition: .5s;
+    outline: none;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.Input:focus{
+    border-radius: 0%;
+    border-color: transparent;
+}
+
+
+.Login{
+    color: lime;
+    border: 2px solid lime;
+}
+
+.Login::placeholder{
+    color: green;
+}
+
+.Login:focus{
+    border-bottom-color: lime;
+}
+
+.Reg{
+    color: orange;
+    border: 2px solid orange;
+}
+
+.Reg::placeholder{
+    color: rgb(170, 113, 8);
+}
+
+.Reg:focus{
+    border-bottom-color: orange;
+}

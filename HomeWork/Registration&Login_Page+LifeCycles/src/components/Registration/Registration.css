@@ -1,0 +1,36 @@
+.RegistrationDiv h1{
+    color: orange;
+}
+
+.RegistrationDiv .RegistrationLinks a{
+    text-decoration: none;
+    border: 2px solid;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 15px;
+    transition: .5s;
+}
+
+.RegistrationDiv .RegistrationLinks .GoToProfile:hover{
+   box-shadow: 0px 0px 25px orange inset;
+}
+.RegistrationDiv .RegistrationLinks .BackToMain:hover{
+    box-shadow: 0px 0px 25px red inset;
+ }
+
+
+.RegistrationDiv .RegistrationLinks {
+    margin-top: 55px;
+}
+
+.BackToMain{
+    color: red;
+    border-color: red;
+
+}
+
+.RegistrationLinks .GoToProfile{
+    color: orange;
+    border-color: orange;
+}

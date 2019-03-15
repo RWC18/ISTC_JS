@@ -1,0 +1,43 @@
+.LoginDiv h1{
+    color: lime;
+}
+
+.LoginDiv .LoginLinks a{
+    text-decoration: none;
+    border: 2px solid;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 15px;
+    transition: .5s;
+}
+
+.LoginDiv .LoginLinks .GoToProfile:hover{
+    box-shadow: 0px 0px 25px lime inset;
+}
+.LoginDiv .LoginLinks .BackToMain:hover{
+    box-shadow: 0px 0px 25px red inset;
+}
+.LoginDiv .LoginLinks .GoToRegistration:hover{
+    box-shadow: 0px 0px 25px orange inset;
+}
+
+
+.LoginDiv .LoginLinks {
+    margin-top: 55px;
+}
+
+.BackToMain{
+    color: red;
+    border-color: red;
+}
+
+.GoToRegistration{
+    color: orange;
+    border-color: orange;
+}
+
+.GoToProfile{
+    color: lime;
+    border-color: lime;
+}
